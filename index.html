@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crystal Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    
+    
+    <body>
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <!--Header-->
+
+        <div class="header">
+            <h1>Crystal Collector</h1>
+        </div>
+
+        <!--Instructions-->
+
+        <div class= "instructions">
+            <h3>How to Play</h3>
+            <br>
+        <ol>            
+            <li>The computer will pick a random number at the start of the game<span>"Number to Get"</span></li>
+            <li>There are four crystals</li>
+            <ul>
+                <li id="blue">Blue</li>
+                <li id="green">Green</li>
+                <li id="red">Red</li>
+                <li id="yellow">Yellow</li>
+            </ul>
+
+            <li>By clicking a crystal, a certain amount of points will be added to your score.</li>
+            <li>You win the game by matching your score with the random number.</li>
+            <li>You lose if your score exceeds the random number.</li>
+            <li>You need to discover the value of each crystal by clicking on them</li>
+            <li>At the start of each game, the value of the crystals will change.</li>
+            <li>Good luck!</li>
+        </ol>
+        </div>
+
+        <!--Scoreboard/Gems-->
+
+        <div class="winningNumber">    
+            <h2>Wins: 
+                    <span id= "numberWins"></span>
+                </br>
+                Losses: 
+                    <span id= "numberLosses"></span>
+            </h2>        
+        </div>
+
+        <div class= "gems">           
+            <img src="assets/images/blue_crystal.png" class= "gemImage" id= "gemOne" alt="Blue Crystal">
+            <img src="assets/images/green-gem.jpeg" class= "gemImage" id= "gemTwo" alt="Green Gem">
+            <img src="assets/images/red-gem.jpeg" class= "gemImage" id= "gemThree" alt="Red Gem">
+            <img src="assets/images/yellow-gem.jpeg" class= "gemImage" id= "gemFour" alt="Yellow Gem">
+        </div>
+
+        <div class="userTotal">
+            <h2>Your total score is: 
+                    <span id="finalTotal"></span>
+            </h2>
+        </div>
+
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <script src="" async defer></script>
+    </body>
+</html>
