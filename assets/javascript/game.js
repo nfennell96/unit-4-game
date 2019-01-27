@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$ ( document ).ready(function() {
 
     // Generates a random between 19-120 number at the start of the game
     var Random=Math.floor(Math.random()*101+19)
@@ -51,7 +51,7 @@ $(document).ready(function(){
     //makes gems clickable
     $('#gemOne').on('click', function(){
         userTotal = userTotal + num1;
-        console.log("New userTotal= " + usterTotal);
+        console.log("New userTotal= " + userTotal);
         $('#finalTotal').text(userTotal);
 
         //setup for winnning/losing
@@ -64,7 +64,7 @@ $(document).ready(function(){
     })
     $('#gemTwo').on('click', function(){
         userTotal = userTotal + num2;
-        console.log("New userTotal= " + usterTotal);
+        console.log("New userTotal= " + userTotal);
         $('#finalTotal').text(userTotal);
 
         //setup for winnning/losing
@@ -77,7 +77,7 @@ $(document).ready(function(){
     })
     $('#gemThree').on('click', function(){
         userTotal = userTotal + num3;
-        console.log("New userTotal= " + usterTotal);
+        console.log("New userTotal= " + userTotal);
         $('#finalTotal').text(userTotal);
 
         //setup for winnning/losing
@@ -90,7 +90,7 @@ $(document).ready(function(){
     })
     $('#gemFour').on('click', function(){
         userTotal = userTotal + num4;
-        console.log("New userTotal= " + usterTotal);
+        console.log("New userTotal= " + userTotal);
         $('#finalTotal').text(userTotal);
 
         //setup for winnning/losing
