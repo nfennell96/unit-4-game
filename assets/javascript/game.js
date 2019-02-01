@@ -1,10 +1,10 @@
 $ ( document ).ready(function() {
 
     // Generates a random between 19-120 number at the start of the game
-    var Random=Math.floor(Math.random()*101+19)
+    var Random=Math.floor(Math.random()*101+19);
 
     //Appends the random number toe the randomNumber id in the html
-    $('#randomNumber').text(Random)
+    $('#randomNumber').text(Random);
 
     //Generates the random numbers beatween 1 and 12 for each gem
     var num1= Math.floor(Math.random()*11+1);
@@ -31,6 +31,7 @@ $ ( document ).ready(function() {
         num4= Math.floor(Math.random()*11+1);
         userTotal= 0;
         $('#finalTotal').text(userTotal);
+        $('#winNumber').text(Random);
     }
 
     //adds wins!
