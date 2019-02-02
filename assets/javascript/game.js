@@ -19,6 +19,7 @@ $ ( document ).ready(function() {
 
     $('#numberWins').text(wins);
     $('#numberLosses').text(losses);
+    $('#winNumber').text(Random);
 
     //resets game
     function reset(){
